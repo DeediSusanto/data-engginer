@@ -78,7 +78,7 @@ Saya telah membuat dataset berisi 5.000 transaksi penjualan dalam format CSV.
 
 ## **📊 Pengolahan Data dengan Python**  
 
-### **🔹 1. Query Data dengan `query_sales.py`**  
+### **🔹 1. Query Data dengan `query_sales.py` & 'visualize_sales.py'**  
 File ini mengambil data dari MySQL dan menampilkannya dengan pandas.
 ```python
 import pandas as pd
@@ -145,7 +145,7 @@ python scripts/prediksi_tren.py
 
 ---
 
-### **🔹 3. Clustering dengan KMeans (`clustering.py`)**  
+### **🔹 3. Clustering dengan KMeans (`sklearn.preprocessing.py`)**  
 File ini melakukan clustering pada data penjualan berdasarkan jumlah dan harga produk.
 ```python
 import pandas as pd
@@ -173,7 +173,7 @@ plt.show()
 ```
 **Cara menjalankan:**
 ```sh
-python scripts/clustering.py
+python scripts/sklearn.preprocessing.py
 ```
 
 ---
